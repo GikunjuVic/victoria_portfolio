@@ -4693,3 +4693,14 @@ input, select, textarea {
 		height: 250px;
 		object-fit:cover; 
 	}
+
+#main article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#main article p {
+    flex: 1;
+}
