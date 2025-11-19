@@ -4695,32 +4695,3 @@ input, select, textarea {
 	}
 
 
-#main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-#main article {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 45%;
-}
-
-#main article p {
-    margin: 0 0 10px 0;
-}
-
-#main article img,
-#main article a {
-    display: block;
-}
-
-#main article img {
-    margin-top: auto;
-}
-
-#main article a {
-    margin-top: 5px;
-    white-space: nowrap;
-}
