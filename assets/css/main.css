@@ -4696,11 +4696,24 @@ input, select, textarea {
 
 #main article {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+    flex-direction: column;
+    gap: 5px;
 }
 
 #main article p {
-    flex: 1;
+    margin: 0;
+}
+
+#main article img,
+#main article a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main article img {
+    margin-right: 10px;
+}
+
+#main article a {
+    white-space: nowrap;
 }
